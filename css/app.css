@@ -17,3 +17,12 @@ nav {
   border: .5px black solid;
   margin-top: 2px;
 }
+
+#landing {
+  margin-top: 5px;
+  max-width: 90%;
+}
+
+#falafel {
+  max-height: 500px;
+}
