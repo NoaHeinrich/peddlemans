@@ -1,0 +1,19 @@
+#logo {
+  max-width: 250px;
+}
+
+#big-name {
+  border: .5px black solid;
+  border-radius: 5px;
+}
+
+nav {
+  text-align: center;
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+#navbar {
+  border: .5px black solid;
+  margin-top: 2px;
+}
