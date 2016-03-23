@@ -7,7 +7,7 @@
   border-radius: 5px;
 }
 
-nav {
+#home {
   text-align: center;
   max-width: 90%;
   margin-left: 5%;
@@ -25,4 +25,8 @@ nav {
 
 #falafel {
   max-height: 500px;
+}
+
+#menu {
+  margin-top: 100px;
 }
