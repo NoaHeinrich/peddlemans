@@ -6,6 +6,16 @@ $(document).ready(function(){
     $(this).changeImg("imgs/falafel1.jpg");
   })
 
+  $(".goHome").on("click", function(event){
+    event.preventDefault();
+    $("html,body").animate({ scrollTop: 0 }, "slow");
+  })
+
+  $(".goMenu").on("click", function(event){
+    event.preventDefault();
+    $("body").scrollTo($("#menu"));
+  })
+
   $.fn.extend({
     changeImg: function (source) {
       $(this).fadeOut("slow", function(){
