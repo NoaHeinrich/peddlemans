@@ -16,6 +16,10 @@ $(document).ready(function(){
     $("body").scrollTo($("#menu"));
   })
 
+  $(".stay").on("click", function(event){
+    event.preventDefault();
+  })
+
   $.fn.extend({
     changeImg: function (source) {
       $(this).fadeOut("slow", function(){
