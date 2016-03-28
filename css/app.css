@@ -30,3 +30,10 @@
 #menu {
   margin-top: 100px;
 }
+
+#menu-img {
+  max-width: 100%;
+  min-height: 750px;
+  background-color: red;
+  margin-top: 20px;
+}
