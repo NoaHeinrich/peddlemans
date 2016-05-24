@@ -21,6 +21,11 @@ $(document).ready(function(){
     $("#info").ScrollTo();
   })
 
+  $(".goContact").on("click", function(event){
+    event.preventDefault();
+    $("#contact").ScrollTo();
+  })
+
   $.fn.extend({
     changeImg: function (source) {
       $(this).fadeOut("slow", function(){

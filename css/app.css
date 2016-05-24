@@ -44,3 +44,8 @@
 .bio {
   text-align: justify;
 }
+
+#contact-info {
+  border: 1px black solid;
+  height: 500px;
+}
