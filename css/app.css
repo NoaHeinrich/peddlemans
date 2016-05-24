@@ -1,4 +1,4 @@
-#logo {
+.logo {
   max-width: 250px;
 }
 
@@ -7,15 +7,16 @@
   border-radius: 5px;
 }
 
-#home {
+.home {
   text-align: center;
   max-width: 90%;
   margin-left: 5%;
 }
 
-#navbar {
+.navbar {
   border: .5px black solid;
   margin-top: 2px;
+  margin-bottom: 5px;
 }
 
 #landing {
@@ -31,9 +32,15 @@
   margin-top: 100px;
 }
 
-#menu-img {
-  max-width: 100%;
-  min-height: 750px;
-  background-color: red;
-  margin-top: 20px;
+.profile-pic {
+  border: 2px solid black;
+}
+
+#our-team {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.bio {
+  text-align: justify;
 }
